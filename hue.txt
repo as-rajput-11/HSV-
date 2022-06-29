@@ -12,3 +12,21 @@
 		img = cv2.cvtColor(final_hsv,cv2.COLOR_HSV2BGR)
 		return img
     
+    
+    ############################################lightness####################################
+    
+    
+    
+    		hsv = cv2.cvtColor(img,cv2.COLOR_BGR2HLS)
+		hsv = np.array(hsv, dtype=np.float64)
+		value = value/50 # dividing by 100 to get in range 0-1.5
+
+		# scale pixel values up or down for channel 1(Saturation)
+		hsv[:, :, 1] = hsv[:, :, 1] * value
+		hsv[:, :, 1][hsv[:, :, 1] > 255] = 255 # setting values > 255 to 255.
+		# scale pixel values up or down for channel 2(Value)
+		hsv[:, :, 2] = hsv[:, :, 2] * value
+		hsv[:, :, 2][hsv[:, :, 2] > 255] = 255 # setting values > 255 to 255.
+		hsv = np.array(hsv, dtype=np.uint8)
+		img = cv2.cvtColor(hsv,cv2.COLOR_HLS2BGR)
+		return img 
