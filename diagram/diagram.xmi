@@ -1,0 +1,1851 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:sysml="http://www.omg.org/spec/SysML/20100301/SysML-profile" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+  <packagedElement xmi:id="p5d1292a5b80748c6b7e2e7030b34487e_465867170" xmi:type="uml:Model">
+    <name>ClassDiagram1</name>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="a757daf0996e4882b914c908929b6a4f" xmi:type="uml:Class">
+      <name>Buffer</name>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="c9bd86dd3a6242adb4a254eb0d6991fa" xmi:type="uml:Property">
+        <name>ret</name>
+        <type xmi:idref="" />
+        <name>ret</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>Buffer</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>Buffer</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>get</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>get</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>clear</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>clear</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>size</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>size</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>maxSize</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>maxSize</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>isFull</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>isFull</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>isEmpty</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>isEmpty</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>Buffer</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="5190575411e549aca5f80a79b328ab0b" xmi:type="uml:Class">
+      <name>CameraConnectDialog</name>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>CameraConnectDialog</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>CameraConnectDialog</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getDeviceUrl</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getDeviceUrl</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getResolutionWidth</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getResolutionWidth</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getResolutionHeight</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getResolutionHeight</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getImageBufferSize</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getImageBufferSize</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getDropFrameCheckBoxState</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getDropFrameCheckBoxState</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getApiPreference</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getApiPreference</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getCaptureThreadPrio</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getCaptureThreadPrio</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getProcessingThreadPrio</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getProcessingThreadPrio</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getTabLabel</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getTabLabel</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getEnableFrameProcessingCheckBoxState</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getEnableFrameProcessingCheckBoxState</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>setUrlMode</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>mode</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>mode</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>setUrlMode</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>openFile</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>openFile</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>resetToDefaults</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>resetToDefaults</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>CameraConnectDialog</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="8a01191606b5440c8d6f5507adec3c86" xmi:type="uml:Class">
+      <name>CameraView</name>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="c0f93d6014c94efd8c32ac072d116295" xmi:type="uml:Property">
+        <name>newImageProcessingFlags</name>
+        <type xmi:idref="" />
+        <name>newImageProcessingFlags</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="a90e1a7438b14083ae7278c33ffa76a1" xmi:type="uml:Property">
+        <name>setROI</name>
+        <type xmi:idref="" />
+        <name>setROI</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="87cef80f08cd4baca5da9b9849373678" xmi:type="uml:Property">
+        <name>self.captureThread</name>
+        <type xmi:idref="" />
+        <name>self.captureThread</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="77025ed618ed4bdd9ec903bdd53ce08f" xmi:type="uml:Property">
+        <name>self.processingThread</name>
+        <type xmi:idref="" />
+        <name>self.processingThread</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="905f869d0c134960bc796e65eeef7416" xmi:type="uml:Property">
+        <name>self.isCameraConnected</name>
+        <type xmi:idref="" />
+        <name>self.isCameraConnected</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>CameraView</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>CameraView</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>delete</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>delete</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>afterCaptureThreadFinshed</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>afterCaptureThreadFinshed</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>afterProcessingThreadFinshed</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>afterProcessingThreadFinshed</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>stopCaptureThread</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>stopCaptureThread</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>stopProcessingThread</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>stopProcessingThread</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>startThread</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>startThread</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>openLogFolder</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>openLogFolder</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>pauseThread</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>pauseThread</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>updateCaptureThreadStats</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>statData</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>statData</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>updateCaptureThreadStats</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>updateProcessingThreadStats</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>statData</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>statData</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>updateProcessingThreadStats</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>updateFrame</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>frame</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>frame</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>updateFrame</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>clearImageBuffer</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>clearImageBuffer</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>setImageProcessingSettings</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>setImageProcessingSettings</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>updateMouseCursorPosLabel</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>updateMouseCursorPosLabel</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>newMouseData</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>mouseData</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>mouseData</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>newMouseData</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>handleContextMenuAction</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>action</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>action</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>handleContextMenuAction</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>CameraView</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="418050a2c4fb407d9d200eba54edaeb0" xmi:type="uml:Class">
+      <name>CaptureThread</name>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="0bac6b45392b47aab14c74ef3b33ab31" xmi:type="uml:Property">
+        <name>updateStatisticsInGUI</name>
+        <type xmi:idref="" />
+        <name>updateStatisticsInGUI</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="2d0a89cb30b84d339148eeabeb0e9a2e" xmi:type="uml:Property">
+        <name>end</name>
+        <type xmi:idref="" />
+        <name>end</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>CaptureThread</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>CaptureThread</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>run</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>run</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>generate_metadata_yolov4</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>preds</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>preds</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>generate_metadata_yolov4</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>generate_metadata_yolov5</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>result_class_ids</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>result_class_ids</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>generate_metadata_yolov5</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>stop</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>stop</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>connectToCamera</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>connectToCamera</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>disconnectCamera</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>disconnectCamera</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>isCameraConnected</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>isCameraConnected</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getInputSourceWidth</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getInputSourceWidth</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getInputSourceHeight</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getInputSourceHeight</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>updateFPS</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>timeElapsed</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>timeElapsed</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>updateFPS</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>CaptureThread</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="133a02eea6564235bf5a524dc0cbe306" xmi:type="uml:Class">
+      <name>FrameLabel</name>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="656f9581c9ba47329d3dae5f0f2123e6" xmi:type="uml:Property">
+        <name>newMouseData</name>
+        <type xmi:idref="" />
+        <name>newMouseData</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="94ca7c03e8e6426b8b01bc5a6a91159b" xmi:type="uml:Property">
+        <name>onMouseMoveEvent</name>
+        <type xmi:idref="" />
+        <name>onMouseMoveEvent</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>FrameLabel</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>FrameLabel</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>mouseMoveEvent</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>ev</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>ev</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>mouseMoveEvent</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>setMouseCursorPos</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>data</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>data</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>setMouseCursorPos</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getMouseCursorPos</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getMouseCursorPos</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>mouseReleaseEvent</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>ev</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>ev</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>mouseReleaseEvent</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>mousePressEvent</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>ev</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>ev</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>mousePressEvent</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>paintEvent</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>ev</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>ev</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>paintEvent</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>createContextMenu</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>createContextMenu</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>FrameLabel</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="1dfb4738c382403681230174475fb3d5" xmi:type="uml:Class">
+      <name>ImageProcessingSettingsDialog</name>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="70789b968947475eb2457a3af4383252" xmi:type="uml:Property">
+        <name>newImageProcessingSettings</name>
+        <type xmi:idref="" />
+        <name>newImageProcessingSettings</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>ImageProcessingSettingsDialog</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>ImageProcessingSettingsDialog</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>updateStoredSettingsFromDialog</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>updateStoredSettingsFromDialog</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>updateDialogSettingsFromStored</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>updateDialogSettingsFromStored</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>resetAllDialogToDefaults</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>resetAllDialogToDefaults</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>smoothTypeChange</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>input</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>input</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>smoothTypeChange</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>validateDialog</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>validateDialog</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>resetSmoothDialogToDefaults</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>resetSmoothDialogToDefaults</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>resetDilateDialogToDefaults</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>resetDilateDialogToDefaults</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>resetErodeDialogToDefaults</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>resetErodeDialogToDefaults</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>resetFlipDialogToDefaults</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>resetFlipDialogToDefaults</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>resetCannyDialogToDefaults</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>resetCannyDialogToDefaults</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>ImageProcessingSettingsDialog</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="ca565a2c2f594defba7662a702ebf745" xmi:type="uml:Class">
+      <name>MainWindow</name>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>MainWindow</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>MainWindow</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>long_range</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>long_range</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>connectToCamera</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>connectToCamera</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>disconnectCamera</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>index</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>index</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>disconnectCamera</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>showAboutDialog</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>showAboutDialog</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getFromDictByTabIndex</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>dic</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>dic</name>
+        </ownedParameter>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>tabIndex</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>tabIndex</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getFromDictByTabIndex</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>updateDictValues</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>dic</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>dic</name>
+        </ownedParameter>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>tabIndex</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>tabIndex</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>updateDictValues</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>setFullScreen</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>flag</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>flag</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>setFullScreen</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>setTabCloseToolTips</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>tabs</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>tabs</name>
+        </ownedParameter>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>tooltip</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>tooltip</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>setTabCloseToolTips</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>MainWindow</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="089d728ac31f4882b936b2ed57510086" xmi:type="uml:Class">
+      <name>ProcessingThread</name>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="944947b0c0554cdd89b04f62056608f1" xmi:type="uml:Property">
+        <name>newFrame</name>
+        <type xmi:idref="" />
+        <name>newFrame</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="f986321a80334d03bb45421eaf298535" xmi:type="uml:Property">
+        <name>updateStatisticsInGUI</name>
+        <type xmi:idref="" />
+        <name>updateStatisticsInGUI</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="f9795e37a07248b3bbb0dabd7911edbe" xmi:type="uml:Property">
+        <name>kernel</name>
+        <type xmi:idref="" />
+        <name>kernel</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>ProcessingThread</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>ProcessingThread</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>run</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>run</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>doShowImage</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>val</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>val</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>doShowImage</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>updateFPS</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>timeElapsed</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>timeElapsed</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>updateFPS</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>stop</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>stop</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>updateBoxesBufferMax</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>boxesBufferMax</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>boxesBufferMax</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>updateBoxesBufferMax</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>updateImageProcessingFlags</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>imgProcFlags</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>imgProcFlags</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>updateImageProcessingFlags</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>updateImageProcessingSettings</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>imgProcSettings</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>imgProcSettings</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>updateImageProcessingSettings</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>setROI</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>roi</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>roi</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>setROI</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getCurrentROI</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getCurrentROI</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>ProcessingThread</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="1147d3cef05e40e6b7868885e6018c65" xmi:type="uml:Class">
+      <name>SharedImageBuffer</name>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>SharedImageBuffer</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>SharedImageBuffer</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getByDeviceUrl</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>deviceUrl</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>deviceUrl</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getByDeviceUrl</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>removeByDeviceUrl</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>deviceUrl</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>deviceUrl</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>removeByDeviceUrl</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>sync</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>deviceUrl</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>deviceUrl</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>sync</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>wakeAll</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>wakeAll</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>setSyncEnabled</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>enable</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>enable</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>setSyncEnabled</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>isSyncEnabledForDeviceUrl</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>deviceUrl</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>deviceUrl</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>isSyncEnabledForDeviceUrl</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>getSyncEnabled</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>getSyncEnabled</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>containsImageBufferForDeviceUrl</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>deviceUrl</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>deviceUrl</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>containsImageBufferForDeviceUrl</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>SharedImageBuffer</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="f8a107b5515e4d7c9e70fc809f00eaa9" xmi:type="uml:Class">
+      <name>Ui_CameraConnectDialog</name>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>setupUi</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>CameraConnectDialog</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>CameraConnectDialog</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>setupUi</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>retranslateUi</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>CameraConnectDialog</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>CameraConnectDialog</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>retranslateUi</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>Ui_CameraConnectDialog</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="0d72cf5a2d6f455eb04a6e728688ea25" xmi:type="uml:Class">
+      <name>Ui_CameraView</name>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>setupUi</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>CameraView</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>CameraView</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>setupUi</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>retranslateUi</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>CameraView</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>CameraView</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>retranslateUi</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>Ui_CameraView</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="1fb058eaaeb44c4fad9904ba60143a86" xmi:type="uml:Class">
+      <name>Ui_ImageProcessingSettingsDialog</name>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>setupUi</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>ImageProcessingSettingsDialog</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>ImageProcessingSettingsDialog</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>setupUi</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>retranslateUi</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>ImageProcessingSettingsDialog</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>ImageProcessingSettingsDialog</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>retranslateUi</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>Ui_ImageProcessingSettingsDialog</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="d5ea04bfaa1a4c83b7cd083552ab945d" xmi:type="uml:Class">
+      <name>Ui_MainWindow</name>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>setupUi</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>MainWindow</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>MainWindow</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>setupUi</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>retranslateUi</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>MainWindow</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>MainWindow</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>retranslateUi</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>Ui_MainWindow</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="294884ae4e854aecb9759dc13d4c7589" xmi:type="uml:Class">
+      <name>YoloV4TRT</name>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="4f5da50b7a9e46ec949c7cdd9e34aa5c" xmi:type="uml:Property">
+        <name>img</name>
+        <type xmi:idref="" />
+        <name>img</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="5c8da5fb7f53468f9e01f69b2ae8130c" xmi:type="uml:Property">
+        <name>colors</name>
+        <type xmi:idref="" />
+        <name>colors</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="572915a2307f4b15bf7138719475bb06" xmi:type="uml:Property">
+        <name>width</name>
+        <type xmi:idref="" />
+        <name>width</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="f08f3796a824471c9eab6e594e5a87e2" xmi:type="uml:Property">
+        <name>height</name>
+        <type xmi:idref="" />
+        <name>height</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="000415a4d6284d63b983b88a69e391e6" xmi:type="uml:Property">
+        <name>box</name>
+        <type xmi:idref="" />
+        <name>box</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="10d244caef764db28c5048644a714ed3" xmi:type="uml:Property">
+        <name>x1</name>
+        <type xmi:idref="" />
+        <name>x1</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="ef5b49d031304fdfab8323a4108aa532" xmi:type="uml:Property">
+        <name>y1</name>
+        <type xmi:idref="" />
+        <name>y1</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="370e5773986a419ea7f23db3e1118565" xmi:type="uml:Property">
+        <name>x2</name>
+        <type xmi:idref="" />
+        <name>x2</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="6d956f147fd945eaa7ecfe3a0a480ed5" xmi:type="uml:Property">
+        <name>y2</name>
+        <type xmi:idref="" />
+        <name>y2</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="41fad8a4492c4b688353a388b4471836" xmi:type="uml:Property">
+        <name>rgb</name>
+        <type xmi:idref="" />
+        <name>rgb</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="979fa14b83dd4509ab54843f469ac94f" xmi:type="uml:Property">
+        <name>cls_conf</name>
+        <type xmi:idref="" />
+        <name>cls_conf</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="2174db7aabba49088d0ccb69a9a61b5b" xmi:type="uml:Property">
+        <name>cls_id</name>
+        <type xmi:idref="" />
+        <name>cls_id</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="88b0a79e704c4c36833c819be66f9351" xmi:type="uml:Property">
+        <name>classes</name>
+        <type xmi:idref="" />
+        <name>classes</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="9cb88d8561a846e28f01152413782929" xmi:type="uml:Property">
+        <name>offset</name>
+        <type xmi:idref="" />
+        <name>offset</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="f6d9c6782c914eb3948437fb1d540dd1" xmi:type="uml:Property">
+        <name>red</name>
+        <type xmi:idref="" />
+        <name>red</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="2234d0d428254dbeba56c504d084a522" xmi:type="uml:Property">
+        <name>green</name>
+        <type xmi:idref="" />
+        <name>green</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="07ab11e16175445c9854ac4ed4f69502" xmi:type="uml:Property">
+        <name>blue</name>
+        <type xmi:idref="" />
+        <name>blue</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="true" isLeaf="false" xmi:id="74d47ae3a41145babb920b8e21030335" xmi:type="uml:Property">
+        <name>text</name>
+        <type xmi:idref="" />
+        <name>text</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>YoloV4TRT</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>YoloV4TRT</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>destroy</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>destroy</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>infer</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>image_src</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>image_src</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>infer</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>post_processing</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>img</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>img</name>
+        </ownedParameter>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>output</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>output</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>post_processing</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>get_color</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>c</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>c</name>
+        </ownedParameter>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>x</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>x</name>
+        </ownedParameter>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>max_val</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>max_val</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>get_color</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>YoloV4TRT</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="b8a05c988b5b4bccb640237731e69df2" xmi:type="uml:Class">
+      <name>YoLov5TRT</name>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>YoLov5TRT</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>YoLov5TRT</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>infer</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>img</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>img</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>infer</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>gen_obj_dict</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>ids</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>ids</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>gen_obj_dict</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>destroy</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>destroy</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>preprocess_image</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>image_raw</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>image_raw</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>preprocess_image</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>transform_boxes</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>boxes</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>boxes</name>
+        </ownedParameter>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>mask</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>mask</name>
+        </ownedParameter>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>orig_h</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>orig_h</name>
+        </ownedParameter>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>orig_w</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>orig_w</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>transform_boxes</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>post_process</name>
+        <lower>1</lower>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>output</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>output</name>
+        </ownedParameter>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>orig_h</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>orig_h</name>
+        </ownedParameter>
+        <ownedParameter isException="false" isStream="false" isOrdered="false" isUnique="false" xmi:id="" xmi:type="uml:Parameter">
+          <name>orig_w</name>
+          <direction>inout</direction>
+          <lower>1</lower>
+          <upper>1</upper>
+          <type xmi:idref="" />
+          <name>orig_w</name>
+        </ownedParameter>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>post_process</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>YoLov5TRT</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <name>ClassDiagram1</name>
+  </packagedElement>
+  <packagedElement xmi:id="simpa2524d45fe3340a591bfbdc06c7a4cf8" xmi:type="uml:Model">
+    <name>(Project)</name>
+    <packagedElement isAbstract="false" isActive="false" isFinalSpecialization="false" isLeaf="false" xmi:id="f361d31fe6b94389b900c37bc7ca9dce" xmi:type="uml:Class">
+      <name>ImageProcessingSettings</name>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="false" isLeaf="false" xmi:id="278d9bc2c8584ce298fbedff3741e9dc" xmi:type="uml:Property">
+        <name>smoothType</name>
+        <type xmi:idref="" />
+        <name>smoothType</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="false" isLeaf="false" xmi:id="b6b5b935680e4521b024fa28279790bf" xmi:type="uml:Property">
+        <name>smoothParam1</name>
+        <type xmi:idref="" />
+        <name>smoothParam1</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="false" isLeaf="false" xmi:id="c36f961900a648d0a6242d11667f3dfa" xmi:type="uml:Property">
+        <name>smoothParam2</name>
+        <type xmi:idref="" />
+        <name>smoothParam2</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="false" isLeaf="false" xmi:id="ba62c5b7f5a444cfbbcb76ad8be79619" xmi:type="uml:Property">
+        <name>smoothParam3</name>
+        <type xmi:idref="" />
+        <name>smoothParam3</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="false" isLeaf="false" xmi:id="0a4485a811804140a9a0c18a99763acf" xmi:type="uml:Property">
+        <name>smoothParam4</name>
+        <type xmi:idref="" />
+        <name>smoothParam4</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="false" isLeaf="false" xmi:id="23b4d27c9a24453eb3e2de4a25e6825f" xmi:type="uml:Property">
+        <name>dilateNumberOfIterations</name>
+        <type xmi:idref="" />
+        <name>dilateNumberOfIterations</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="false" isLeaf="false" xmi:id="46b6d64f0a73436b96f145abbcedd8f0" xmi:type="uml:Property">
+        <name>erodeUrlOfIterations</name>
+        <type xmi:idref="" />
+        <name>erodeUrlOfIterations</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="false" isLeaf="false" xmi:id="6942b199af56430196d18f86c23b4bf1" xmi:type="uml:Property">
+        <name>flipCode</name>
+        <type xmi:idref="" />
+        <name>flipCode</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="false" isLeaf="false" xmi:id="37726bf18fc746889a2dab014c6ba71b" xmi:type="uml:Property">
+        <name>cannyThreshold1</name>
+        <type xmi:idref="" />
+        <name>cannyThreshold1</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="false" isLeaf="false" xmi:id="cb740919035d40038d18b90ba706340a" xmi:type="uml:Property">
+        <name>cannyThreshold2</name>
+        <type xmi:idref="" />
+        <name>cannyThreshold2</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="false" isLeaf="false" xmi:id="13da5e751b6f43bc9363d2566f6cddc2" xmi:type="uml:Property">
+        <name>cannyApertureSize</name>
+        <type xmi:idref="" />
+        <name>cannyApertureSize</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedAttribute isComposite="false" isDerived="false" isDerivedUnion="false" isID="false" isReadOnly="false" isOrdered="false" isUnique="false" isStatic="false" isLeaf="false" xmi:id="2700cc49dfd44f9698e019d007395a7d" xmi:type="uml:Property">
+        <name>cannyL2gradient</name>
+        <type xmi:idref="" />
+        <name>cannyL2gradient</name>
+        <visibility>public</visibility>
+        <lower>1</lower>
+        <upper>1</upper>
+      </ownedAttribute>
+      <ownedOperation isOrdered="false" isQuery="false" isUnique="false" isAbstract="false" isStatic="false" isLeaf="false" xmi:id="" xmi:type="uml:Operation">
+        <name>ImageProcessingSettings</name>
+        <lower>1</lower>
+        <type xmi:idref="" />
+        <upper>1</upper>
+        <name>ImageProcessingSettings</name>
+        <visibility>public</visibility>
+      </ownedOperation>
+      <name>ImageProcessingSettings</name>
+      <visibility>public</visibility>
+    </packagedElement>
+    <name>(Project)</name>
+  </packagedElement>
+</xmi:XMI>
